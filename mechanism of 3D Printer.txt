@@ -19,13 +19,6 @@ The **CNC Shield (v3)** is a popular open-source hardware add-on for the Arduino
 - **Limit switches** (for homing X, Y, and Z axes)
 - **Thermistors** (for temperature sensing)
 - **MOSFET or relay** (to control the heated bed)
-
-#### **Mechanical Frame:**
-- **Aluminum extrusions** (like **2020 T-slot profiles**)
-- **Linear rails/rods and bearings** (for smooth motion)
-- **Lead screw or belts** (for movement)
-- **3D-printed or CNC-milled brackets** (to mount components)
-
 ---
 
 ### **3. Wiring the CNC Shield**
@@ -100,3 +93,4 @@ Since the CNC Shield does not natively support 3D printing, you need firmware th
 
 For **better results**, consider using **RAMPS 1.4 with an Arduino Mega** instead of the CNC Shield, as it’s fully compatible with Marlin.
  🚀
+
