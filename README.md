@@ -63,7 +63,7 @@ Your open-source journey to a custom 3D printer starts here! 🖨️
 ---
 
 ### **1. Understanding the CNC Shield**
-The **CNC Shield (v3)** is a popular open-source hardware add-on for the Arduino **Uno** that supports stepper motor drivers like **A4988** or **DRV8825**. It is designed for CNC machines but can be repurposed for 3D printing with the right firmware and setup.
+The **CNC Shield (v3)** is a popular open-source hardware add-on for the Arduino **Uno** that supports stepper motor drivers like **A4988**. It is designed for CNC machines but can be repurposed for 3D printing with the right firmware and setup.
 
 ---
 
@@ -71,7 +71,7 @@ The **CNC Shield (v3)** is a popular open-source hardware add-on for the Arduino
 #### **Electronics:**
 - **Arduino Uno** (as the main controller)
 - **CNC Shield v3** (stepper driver interface)
-- **A4988/DRV8825** stepper drivers (for motor control)
+- **A4988** stepper drivers (for motor control)
 - **NEMA 17 stepper motors** (for X, Y, Z, and extruder)
 - **Hotend** (compatible with filament type, e.g., E3D V6)
 - **Heatbed** (optional but recommended for better adhesion)
@@ -87,7 +87,7 @@ The CNC Shield has four stepper motor slots:
 - **Extruder (E0 or E1)** for filament feeding.
 
 #### **Connecting Stepper Motors:**
-1. Insert **A4988/DRV8825 drivers** into the CNC shield.
+1. Insert **A4988 drivers** into the CNC shield.
 2. Connect each **stepper motor** to its respective port.
 3. Adjust **VREF voltage** on drivers to match motor current requirements.
 
