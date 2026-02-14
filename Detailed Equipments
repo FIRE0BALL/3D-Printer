@@ -8,5 +8,7 @@ DRIVERS
     5 - A4988 Driver Module
 POWER SUPPLY
     1 - 12v 10 amp
+LCD DISPLAY 
+    1 - LCD 12864 controller(with SD slot)
 
     
